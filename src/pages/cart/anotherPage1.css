@@ -1,0 +1,125 @@
+/* General styles */
+.contact1 .info-container {
+  background-color: gray;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact1 .info-item {
+  width: 100%;
+  background-color: rgb(167, 161, 161);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.contact1 .info-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact1 .info-item i {
+  font-size: 22px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
+.contact1 .info-item h4 {
+  padding: 0;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.contact1 .info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 19px;
+}
+
+.contact1 .info-item:hover i {
+  background: #e0e0e0;
+  color: var(--color-primary);
+}
+
+.inForm:focus {
+  border-color: green !important;
+}
+
+.form-select-container {
+  width: 100%;
+  max-width: 600px; 
+}
+
+.form-select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+select option {
+  width: 100% !important;
+}
+
+.option1 {
+  width: 100% !important;
+}
+
+
+/* Media queries for screen width below 600px */
+@media (max-width: 600px) {
+
+  .contact1 .info-container {
+    padding: 15px;
+    box-shadow: none;
+  }
+
+  /* Adjust the info items for smaller screens */
+  .contact1 .info-item {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust icon size and spacing */
+  .contact1 .info-item i {
+    font-size: 18px;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+  }
+
+  /* Smaller font sizes */
+  .contact1 .info-item h4 {
+    font-size: 20px;
+  }
+
+  .contact1 .info-item p {
+    font-size: 16px;
+  }
+
+  /* Form adjustments */
+  .inForm {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  #form1 {
+    width: 100% !important;
+    padding: 10px;
+  }
+  
+  #form1 input {
+    width: 100%;
+  }
+}

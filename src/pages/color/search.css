@@ -1,0 +1,76 @@
+.Ap {
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+  }
+
+  .products {
+    color: #70b8a2;
+    margin-top: 30px;
+  }
+
+.product {
+  border-radius: 15px;
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  width: 220px;
+  height: 220px;
+  
+}
+
+.product .description {
+  text-align: center;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+  .countHandler>button, .countHandler>input {
+    background-color: #efefef !important;
+    border: 2px solid #8ac7b5 !important; 
+    font-weight: bolder; 
+  
+  }
+  
+  .countHandler>button:hover {
+    background-color: #8ac7b5 !important;
+    color: #000000;
+  }
+
+  /* popover */
+
+.popover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.popover {
+  position: absolute;
+  /* bottom: calc(100% + 5px); */
+  top: -650%;
+  left: -50px;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+  width: 200px;
+}
+
+.popover-container:hover .popover {
+  display: block;
+}
