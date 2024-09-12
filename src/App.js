@@ -48,6 +48,12 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/anotherPage1" element={<AnotherPage1 onSubmit={handleSubmit} />} />  
 
+             {/* Redirect to /Chris.Dev's-Store when path is / */}
+             <Route path="/" element={<Navigate to="/Chris.Dev's-Store" replace />} />
+
+            {/* Catch all unmatched routes and redirect to Home */}
+            <Route path="*" element={<Navigate to="/Chris.Dev's-Store" replace />} />
+
           </Routes>
         </Router>
       </ShopContextProvider>
