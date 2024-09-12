@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Chris.Dev-Store/static/css/main.d0226b7c.css",
-    "main.js": "/Chris.Dev-Store/static/js/main.5f83bb52.js",
+    "main.js": "/Chris.Dev-Store/static/js/main.101d1d77.js",
     "static/media/PNG-CL_1.png": "/Chris.Dev-Store/static/media/PNG-CL_1.d371014a3ac569b6b7b3.png",
     "static/media/client-4.png": "/Chris.Dev-Store/static/media/client-4.22f6c884d87b49031688.png",
     "static/media/client-1.png": "/Chris.Dev-Store/static/media/client-1.1270d64e2a46c3e1638f.png",
@@ -22,10 +22,10 @@
     "index.html": "/Chris.Dev-Store/index.html",
     "static/media/slick.woff": "/Chris.Dev-Store/static/media/slick.295183786cd8a1389865.woff",
     "main.d0226b7c.css.map": "/Chris.Dev-Store/static/css/main.d0226b7c.css.map",
-    "main.5f83bb52.js.map": "/Chris.Dev-Store/static/js/main.5f83bb52.js.map"
+    "main.101d1d77.js.map": "/Chris.Dev-Store/static/js/main.101d1d77.js.map"
   },
   "entrypoints": [
     "static/css/main.d0226b7c.css",
-    "static/js/main.5f83bb52.js"
+    "static/js/main.101d1d77.js"
   ]
 }
