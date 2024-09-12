@@ -28,6 +28,8 @@ function App() {
           <ScrollToTop />
           <Navbar />
           <Routes>
+            {/* Redirect root path to /Chris.Dev's-Store */}
+            <Route path="/" element={<Navigate to="/Chris.Dev's-Store" />} />
             <Route path="/Chris.Dev's-Store" element={<Home />} />
             <Route path="/shop" element={<Shop />} />            
             <Route path="/contact" element={<Contact />} />
