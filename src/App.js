@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { ScrollToTop } from './components/ScrollToTop';
 import { Navbar } from "./components/navbar";
 import { Shop } from "./pages/shop/shop";
@@ -30,7 +30,7 @@ function App() {
           <Routes>
             {/* Redirect root path to /Chris.Dev's-Store */}
             {/* <Route path="/" element={<Navigate to="/Chris.Dev's-Store" />} /> */}
-            <Route path="/Chris.Dev's-Store" element={<Home />} />
+            <Route path="/Chris.Dev-Store" element={<Home />} />
             <Route path="/shop" element={<Shop />} />            
             <Route path="/contact" element={<Contact />} />
             <Route path="/search" element={<Search />} />
@@ -49,10 +49,10 @@ function App() {
             <Route path="/anotherPage1" element={<AnotherPage1 onSubmit={handleSubmit} />} />  
 
              {/* Redirect to /Chris.Dev's-Store when path is / */}
-             <Route path="/" element={<Navigate to="/Chris.Dev's-Store" replace />} />
+             <Route path="/" element={<Navigate to="/Chris.Dev-Store" replace />} />
 
             {/* Catch all unmatched routes and redirect to Home */}
-            <Route path="*" element={<Navigate to="/Chris.Dev's-Store" replace />} />
+            <Route path="*" element={<Navigate to="/Chris.Dev-Store" replace />} />
 
           </Routes>
         </Router>
