@@ -112,7 +112,7 @@ export const Home = () => {
         <footer className="footer">
           <p><strong>CHRIS.DEV'S STORE</strong></p>
           <p>
-            © 2024 |
+            © 2025 |
             <span> CHRIS DEV.                                                                                                                                                 </span>
           </p>
         </footer>
